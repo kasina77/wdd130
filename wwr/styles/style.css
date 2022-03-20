@@ -191,14 +191,15 @@ main section img {
 }
 .rafting {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 100px;
 }
 #raft {
-  grid-area: 2/3/4/3;
+  /* grid-area: 2/3/4/3; */
 }
 #content-box {
-  grid-area: 2/5/4/7;
+  /* grid-area: 2/5/4/7; */
   font-size: 15px;
 }
 #rivers-pic {
